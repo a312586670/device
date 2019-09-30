@@ -1,0 +1,14 @@
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\obj\Debug\WP.Device.Framework.csproj.CoreCompileInputs.cache
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\WP.Device.Framework.dll
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\WP.Device.Framework.pdb
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\Newtonsoft.Json.dll
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\Newtonsoft.Json.xml
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\obj\Debug\WP.Device.Framework.csproj.CopyComplete
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\obj\Debug\WP.Device.Framework.dll
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\obj\Debug\WP.Device.Framework.pdb
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\obj\Debug\WP.Device.Framework.csprojAssemblyReference.cache
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\x86\liblept1753.dll
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\x86\libtesseract3052.dll
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\x64\liblept1753.dll
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\x64\libtesseract3052.dll
+D:\demo\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\Tesseract.dll

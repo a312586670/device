@@ -1,0 +1,8 @@
+﻿<Window x:Class="Wp.Device.WPF.AppDemo.Window7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStyle="None" WindowState="Maximized"
+        Title="Window7" Height="300" Width="300" MouseDoubleClick="Window_MouseDoubleClick">
+	<Grid  Name="mainGrid"  MouseDown="Window_MouseDown" MouseMove="Window_MouseMove" MouseLeave="Window_MouseLeave" MouseUp="Window_MouseUp">
+
+	</Grid>
+</Window>

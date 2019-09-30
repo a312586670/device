@@ -1,0 +1,10 @@
+D:\demo\WP.Device.Demo\WP.Device.Demo\bin\Debug\WP.Device.Demo.exe.config
+D:\demo\WP.Device.Demo\WP.Device.Demo\bin\Debug\WP.Device.Demo.exe
+D:\demo\WP.Device.Demo\WP.Device.Demo\bin\Debug\WP.Device.Demo.pdb
+D:\demo\WP.Device.Demo\WP.Device.Demo\obj\Debug\WP.Device.Demo.csprojAssemblyReference.cache
+D:\demo\WP.Device.Demo\WP.Device.Demo\obj\Debug\WP.Device.Demo.Form1.resources
+D:\demo\WP.Device.Demo\WP.Device.Demo\obj\Debug\WP.Device.Demo.Properties.Resources.resources
+D:\demo\WP.Device.Demo\WP.Device.Demo\obj\Debug\WP.Device.Demo.csproj.GenerateResource.cache
+D:\demo\WP.Device.Demo\WP.Device.Demo\obj\Debug\WP.Device.Demo.csproj.CoreCompileInputs.cache
+D:\demo\WP.Device.Demo\WP.Device.Demo\obj\Debug\WP.Device.Demo.exe
+D:\demo\WP.Device.Demo\WP.Device.Demo\obj\Debug\WP.Device.Demo.pdb

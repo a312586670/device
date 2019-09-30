@@ -1,0 +1,10 @@
+D:\demo\WP.Device.Demo\Wp.Device.Console\bin\Debug\Wp.Device.Console.exe.config
+D:\demo\WP.Device.Demo\Wp.Device.Console\bin\Debug\Wp.Device.Console.exe
+D:\demo\WP.Device.Demo\Wp.Device.Console\bin\Debug\Wp.Device.Console.pdb
+D:\demo\WP.Device.Demo\Wp.Device.Console\obj\Debug\Wp.Device.Console.csprojAssemblyReference.cache
+D:\demo\WP.Device.Demo\Wp.Device.Console\obj\Debug\Wp.Device.Console.csproj.CoreCompileInputs.cache
+D:\demo\WP.Device.Demo\Wp.Device.Console\obj\Debug\Wp.Device.Console.exe
+D:\demo\WP.Device.Demo\Wp.Device.Console\obj\Debug\Wp.Device.Console.pdb
+D:\demo\WP.Device.Demo\Wp.Device.Console\bin\Debug\WP.Device.Framework.dll
+D:\demo\WP.Device.Demo\Wp.Device.Console\bin\Debug\WP.Device.Framework.pdb
+D:\demo\WP.Device.Demo\Wp.Device.Console\obj\Debug\Wp.Device.Console.csproj.CopyComplete
