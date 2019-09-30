@@ -35,40 +35,5 @@ namespace Wp.Device.Console
             //Console.WriteLine("Press any key to exit.");
             //Console.ReadKey();
         }
-
-        public static List<int> Data
-        {
-            get
-            {
-                return new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8 };
-            }
-        }
-
-        //public static IEnumerable<int> FilterWithoutYield
-        //{
-        //    get
-        //    {
-        //        var result = new List<int>();
-        //        foreach (var i in Data)
-        //        {
-        //            if (i > 4)
-        //                result.Add(i);
-        //        }
-        //        return result;
-        //    }
-        //}
-
-        ////申明属性，过滤器(使用yield)
-        //public static IEnumerable<int> FilterWithoutYield2
-        //{
-        //    get
-        //    {
-        //        foreach (var i in Data)
-        //        {
-        //            if (i > 4)
-        //                yield return i;
-        //        }
-        //    }
-        //}
     }
 }
