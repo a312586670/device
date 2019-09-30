@@ -20,26 +20,26 @@ namespace WP.Device.Framework
     {
         private static MemoryStream _globalMemoryStream = new System.IO.MemoryStream();
 
-        ///// <summary>
-        ///// 根据快照获得位图资源
-        ///// </summary>
-        ///// <returns></returns>
-        //public static BitmapSource GetBitMapSourceFromSnapScreen()
-        //{
-        //    Bitmap bitmap = GetScreenSnapshot();
-        //    IntPtr intPtrl = bitmap.GetHbitmap();
-        //    BitmapSource bitmapSource = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(intPtrl, IntPtr.Zero, Int32Rect.Empty, BitmapSizeOptions.FromEmptyOptions());
-        //    GDIWin32Api.DeleteObject(intPtrl);
-        //    return bitmapSource;
-        //}
+        /// <summary>
+        /// 根据快照获得位图资源
+        /// </summary>
+        /// <returns></returns>
+        public static BitmapSource GetBitMapSourceFromSnapScreen()
+        {
+            Bitmap bitmap = GetScreenSnapshot();
+            IntPtr intPtrl = bitmap.GetHbitmap();
+            BitmapSource bitmapSource = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(intPtrl, IntPtr.Zero, Int32Rect.Empty, BitmapSizeOptions.FromEmptyOptions());
+            GDIWin32Api.DeleteObject(intPtrl);
+            return bitmapSource;
+        }
 
-        //public static BitmapSource GetBitMapSourceFromBitmap(Bitmap bitmap)
-        //{
-        //    IntPtr intPtrl = bitmap.GetHbitmap();
-        //    BitmapSource bitmapSource = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(intPtrl, IntPtr.Zero, Int32Rect.Empty, BitmapSizeOptions.FromEmptyOptions());
-        //    GDIWin32Api.DeleteObject(intPtrl);
-        //    return bitmapSource;
-        //}
+        public static BitmapSource GetBitMapSourceFromBitmap(Bitmap bitmap)
+        {
+            IntPtr intPtrl = bitmap.GetHbitmap();
+            BitmapSource bitmapSource = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(intPtrl, IntPtr.Zero, Int32Rect.Empty, BitmapSizeOptions.FromEmptyOptions());
+            GDIWin32Api.DeleteObject(intPtrl);
+            return bitmapSource;
+        }
 
         public static BitmapImage GetBitmapImageFromSnapScreen()
         {

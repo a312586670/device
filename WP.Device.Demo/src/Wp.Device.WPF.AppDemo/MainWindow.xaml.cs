@@ -28,7 +28,7 @@ namespace Wp.Device.WPF.AppDemo
     /// </summary>
     public partial class MainWindow : Window
     {
-        private delegate void UpdateValueMethod(decimal data);
+        private delegate void UpdateValueMethod(decimal data,Bitmap bit);
 
         public MainWindow()
         {
@@ -47,10 +47,10 @@ namespace Wp.Device.WPF.AppDemo
             #endregion
 
             #region 注册OCR 图片文字识别插件
-            DeviceGlobalManage.OrcRegister((data) =>
+            DeviceGlobalManage.OrcRegister((data,bit) =>
             {
                 UpdateValueMethod myDelegate = new UpdateValueMethod(UpdateValue);
-                this.Dispatcher.BeginInvoke(myDelegate, data);
+                this.Dispatcher.BeginInvoke(myDelegate, data,bit);
             });
             #endregion
 
@@ -61,9 +61,21 @@ namespace Wp.Device.WPF.AppDemo
         /// 委托事件获取当前时间
         /// </summary>
         /// <param name="para"></param>
-        private void UpdateValue(decimal para)
+        private void UpdateValue(decimal para,Bitmap bit)
         {
             this.txbCode.Text = para.ToString();
+
+            if(bit==null)
+            {
+                return;
+            }
+            BitmapSource source = ScreenPlugins.GetBitMapSourceFromBitmap(bit);
+            System.Windows.Clipboard.SetImage(source);
+
+            ImageSource img = System.Windows.Clipboard.GetImage();
+            image1.Width = img.Width;
+            image1.Height = img.Height;
+            image1.Source = img;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

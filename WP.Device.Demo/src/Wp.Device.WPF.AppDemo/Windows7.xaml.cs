@@ -113,7 +113,7 @@ namespace Wp.Device.WPF.AppDemo
                 using (System.Drawing.Bitmap map = (System.Drawing.Bitmap)bitmap)
                 {
 
-                    BitmapSource source = BitmapImageUtil.getBitMapSourceFromBitmap(map);
+                    BitmapSource source = ScreenPlugins.GetBitMapSourceFromBitmap(map);
                     Clipboard.SetImage(source);
 
                     bitmap.Dispose();

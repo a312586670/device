@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Timers;
 using Tesseract;
+using WP.Device.Framework.Helper;
 
 namespace WP.Device.Framework.Screen
 {
@@ -31,7 +32,7 @@ namespace WP.Device.Framework.Screen
         #endregion
 
         #region 委托定义
-        public delegate void OcrTimerHandler(decimal data);
+        public delegate void OcrTimerHandler(decimal data,Bitmap bitmap);
         #endregion
 
         #region 公共方法
@@ -103,7 +104,7 @@ namespace WP.Device.Framework.Screen
                 var content = GetOcrMoney(_config, out Bitmap bitMap);
 
                 #region 回调
-                OnTimerHandler(content);
+                OnTimerHandler(content,bitMap);
                 #endregion
             }
             catch (Exception ex)
@@ -123,6 +124,7 @@ namespace WP.Device.Framework.Screen
             var page = ocr.Process(bitMap);
             #endregion
 
+            TextHelper.Write("data->"+page?.GetText());
             return ResolveMoney(page?.GetText() ?? "");
         }
 
