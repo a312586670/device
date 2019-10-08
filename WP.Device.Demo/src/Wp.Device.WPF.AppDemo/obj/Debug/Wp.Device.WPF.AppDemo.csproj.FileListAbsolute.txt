@@ -40,11 +40,13 @@ D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\bin\Debug\Newtonsoft.Jso
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.csprojAssemblyReference.cache
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Windows7.baml
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\MainWindow.g.cs
+D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\SerialWindows.g.cs
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Windows7.g.cs
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\App.g.cs
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo_MarkupCompile.cache
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo_MarkupCompile.lref
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\MainWindow.baml
+D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\SerialWindows.baml
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.g.resources
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.Properties.Resources.resources
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.csproj.GenerateResource.cache

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\demo\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\
+D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\
 Wp.Device.WPF.AppDemo
 none
 false
 DEBUG;TRACE
-D:\demo\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\App.xaml
-2-1493339810
+D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\App.xaml
+3-1488808004
 
-111987785278
-181800924708
-MainWindow.xaml;Windows7.xaml;
+13-80108807
+21707264088
+MainWindow.xaml;SerialWindows.xaml;Windows7.xaml;
 
-False
+True
 

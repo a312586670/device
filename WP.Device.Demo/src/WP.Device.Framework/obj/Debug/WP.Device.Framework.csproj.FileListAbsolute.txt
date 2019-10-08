@@ -21,8 +21,8 @@ D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\WP.Device.Framew
 D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\Newtonsoft.Json.dll
 D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\Tesseract.dll
 D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\bin\Debug\Newtonsoft.Json.xml
-D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\obj\Debug\WP.Device.Framework.csprojAssemblyReference.cache
 D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\obj\Debug\WP.Device.Framework.csproj.CoreCompileInputs.cache
 D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\obj\Debug\WP.Device.Framework.csproj.CopyComplete
 D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\obj\Debug\WP.Device.Framework.dll
 D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\obj\Debug\WP.Device.Framework.pdb
+D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\obj\Debug\WP.Device.Framework.csprojAssemblyReference.cache

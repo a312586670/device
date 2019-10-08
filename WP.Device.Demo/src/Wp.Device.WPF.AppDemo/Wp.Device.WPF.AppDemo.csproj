@@ -56,6 +56,9 @@
     <Reference Include="Tesseract, Version=3.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Tesseract.3.3.0\lib\net45\Tesseract.dll</HintPath>
     </Reference>
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -65,6 +68,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ComTest.cs" />
+    <Compile Include="SerialWindows.xaml.cs">
+      <DependentUpon>SerialWindows.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows7.xaml.cs">
       <DependentUpon>Windows7.xaml</DependentUpon>
     </Compile>
@@ -81,6 +88,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SerialWindows.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows7.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -5,12 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wp.Device.WPF.AppDemo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" MouseMove="Window_MouseMove" Height="450" Width="800">
 	<Grid>
 		<TextBox HorizontalAlignment="Left" Height="207" Margin="39,51,0,0" TextWrapping="Wrap" Name="txbCode" VerticalAlignment="Top" Width="567"/>
-		<Button  HorizontalAlignment="Left" Margin="657,136,0,0" VerticalAlignment="Top" Content="读取文件内容"  Width="75" Click="Button_Click"/>
-		<Button  HorizontalAlignment="Left" Margin="657,197,0,0" VerticalAlignment="Top" Content="截屏"  Width="75" Click="Button_Click_1"/>
-		<TextBox  HorizontalAlignment="Left" Height="23" Margin="57,10,0,0" TextWrapping="Wrap"  Name="txtFile" VerticalAlignment="Top" Width="490"/>
+		<Button  HorizontalAlignment="Left" Margin="657,61,0,0" VerticalAlignment="Top" Content="读取文件内容"  Width="75" Click="Button_Click"/>
+		<Button  HorizontalAlignment="Left" Margin="657,122,0,0" VerticalAlignment="Top" Content="截屏"  Width="75" Click="Button_Click_1"/>
+		<TextBox  HorizontalAlignment="Left" Height="23" Margin="57,10,0,0" TextWrapping="Wrap" Text="test"  Name="txtFile" VerticalAlignment="Top" Width="490"/>
 		<Image HorizontalAlignment="Left" Height="100" Margin="200,314,0,0" VerticalAlignment="Top" Name="image1" Width="100"/>
+		<Button  HorizontalAlignment="Left" Margin="657,169,0,0" VerticalAlignment="Top" Content="获取窗口句柄"  Width="75" Click="Button_Click_2"/>
+		<Label Content="9.06" HorizontalAlignment="Left" Margin="112,314,0,0"  VerticalAlignment="Top"/>
+		<Button  HorizontalAlignment="Left" Margin="657,227,0,0" VerticalAlignment="Top" Content="虚拟串口测试"  Width="75" Click="Button_Click_3"/>
+		<StackPanel HorizontalAlignment="Left" Height="100" Margin="344,284,0,0" VerticalAlignment="Top" Width="100">
+			<Label Content="9.05" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
+		</StackPanel>
 	</Grid>
 </Window>

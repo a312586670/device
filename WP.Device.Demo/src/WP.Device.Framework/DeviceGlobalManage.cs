@@ -26,7 +26,7 @@ namespace WP.Device.Framework
 
         #region 注册设备相关方法
         /// <summary>
-        /// 注册全局键盘钩子
+        /// 注册全局键盘钩子,注册全局钩子，退出时需要卸载全局键盘钩子
         /// </summary>
         /// <param name="dataEvent">回调事件</param>
         public static void Register(BoardDataEventHandler dataEvent)
