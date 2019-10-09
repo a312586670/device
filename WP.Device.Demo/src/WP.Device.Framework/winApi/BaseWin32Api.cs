@@ -47,6 +47,8 @@ namespace WP.Device.Framework
 
         }
 
+        #region 系统钩子相关win32 api
+
         public delegate int HookProcess(int nCode, Int32 wParam, IntPtr lParam);
 
         /// <summary>
@@ -79,6 +81,8 @@ namespace WP.Device.Framework
         [DllImport("user32.dll", CharSet = CharSet.Auto, CallingConvention = CallingConvention.StdCall)]
         public static extern int CallNextHookEx(int idHook, int nCode, Int32 wParam, IntPtr lParam);
 
+        #endregion
+
         /// <summary>
         /// 获得模块指针地址
         /// </summary>
@@ -96,18 +100,6 @@ namespace WP.Device.Framework
         public static extern int GetKeyboardState(byte[] pbKeyState);
 
         /// <summary>
-        /// ToAscii职能的转换指定的虚拟键码和键盘状态的相应字符或字符
-        /// </summary>
-        /// <param name="uVirtKey">指定虚拟关键代码进行翻译。</param>
-        /// <param name="uScanCode">指定的硬件扫描码的关键须翻译成英文。高阶位的这个值设定的关键，如果是（不压）</param>
-        /// <param name="lpbKeyState">指针，以256字节数组，包含当前键盘的状态。每个元素（字节）的数组包含状态的一个关键。如果高阶位的字节是一套，关键是下跌（按下）。在低比特，如果设置表明，关键是对切换。在此功能，只有肘位的CAPS LOCK键是相关的。在切换状态的NUM个锁和滚动锁定键被忽略。</param>
-        /// <param name="lpwTransKey">指针的缓冲区收到翻译字符或字符。</param>
-        /// <param name="fuState">Specifies whether a menu is active. This parameter must be 1 if a menu is active, or 0 otherwise.</param>
-        /// <returns></returns>
-        [DllImport("user32")]
-        public static extern int ToAscii(int uVirtKey, int uScanCode, byte[] lpbKeyState, byte[] lpwTransKey, int fuState);
-
-        /// <summary>
         /// 
         /// </summary>
         /// <param name="VirtualKey"></param>
@@ -117,7 +109,7 @@ namespace WP.Device.Framework
         /// <param name="uFlags"></param>
         /// <returns></returns>
         [DllImport("user32", EntryPoint = "ToAscii")]
-        public static extern bool ToAscii(int VirtualKey, int ScanCode, byte[] lpKeySate, ref uint lpChar, int uFlags);
+        public static extern bool ToAscii(int virtualKey, int scanCode, byte[] lpKeySate, ref uint lpChar, int uFlags);
 
         /// <summary>
         /// 获取键值名称
@@ -146,7 +138,34 @@ namespace WP.Device.Framework
         [DllImport("User32.dll", EntryPoint = "SendMessage")]
         public static extern int SendMessage(IntPtr hWnd, int Msg, IntPtr wParam, string lParam);
 
-        //public extern static IntPtr FindWindowEx（HWND hwndParent，HWND hwndChildAfter，LPCTSTR lpszClass，LPCTSTR lpszWindow）
+        /// <summary>
+        /// 获得桌面句柄
+        /// </summary>
+        /// <returns></returns>
+
+        [DllImport("user32.dll", CharSet = CharSet.Auto, ExactSpelling = true)]
+        public static extern IntPtr GetDesktopWindow();
+
+        /// <summary>
+        /// 获得DC
+        /// </summary>
+        /// <param name="hWnd"></param>
+        /// <param name="hrgnClip"></param>
+        /// <param name="flags"></param>
+        /// <returns></returns>
+        [DllImport("user32.dll", EntryPoint = "GetDCEx", CharSet = CharSet.Auto, ExactSpelling = true)]
+        public static extern IntPtr GetDCEx(IntPtr hWnd, IntPtr hrgnClip, int flags);
+
+        /// <summary>
+        /// 重绘桌面
+        /// </summary>
+        /// <param name="hwnd"></param>
+        /// <param name="rcUpdate"></param>
+        /// <param name="hrgnUpdate"></param>
+        /// <param name="flags"></param>
+        /// <returns></returns>
+        [DllImport("user32.dll", CharSet = CharSet.Auto, ExactSpelling = true)]
+        public static extern bool RedrawWindow(IntPtr hwnd, WindowRect rcUpdate, IntPtr hrgnUpdate, int flags);
 
         ///// <summary>
         ///// 根据窗体句柄获得窗体标题
@@ -251,6 +270,23 @@ namespace WP.Device.Framework
             int y;
         }
 
+        public class WindowRect
+        {
+            public int left;
+            public int top;
+            public int right;
+            public int bottom;
+        }
+
+        /// <summary>
+        /// 获得DC
+        /// </summary>
+        /// <param name="hwnd"></param>
+        /// <returns></returns>
+
+        [DllImport("User32.dll")]
+        public static extern IntPtr GetWindowDC(IntPtr hwnd);
+
         /// <summary>
         /// 根据当前定位获得句柄窗口
         /// </summary>
@@ -260,48 +296,12 @@ namespace WP.Device.Framework
         public static extern IntPtr WindowFromPoint(WindowPoint Point);
 
         /// <summary>
-        /// 根据当前定位获得句柄窗口
-        /// </summary>
-        /// <param name="xPoint"></param>
-        /// <param name="yPoint"></param>
-        /// <returns></returns>
-        [DllImport("user32.dll")]
-        public static extern IntPtr WindowFromPoint(int xPoint, int yPoint);
-
-        /// <summary>
         /// 获得当前定位
         /// </summary>
         /// <param name="lpPoint"></param>
         /// <returns></returns>
         [DllImport("user32.dll")]
         public static extern bool GetCursorPos(out WindowPoint lpPoint);
-
-        /// <summary>
-        /// 设置窗口名称
-        /// </summary>
-        /// <param name="hWnd"></param>
-        /// <param name="lpString"></param>
-        /// <returns></returns>
-        [DllImport("user32.dll")]
-        public static extern bool SetWindowText(IntPtr hWnd, string lpString);
-
-        /// <summary>
-        /// 获取窗口中的内容长度
-        /// </summary>
-        /// <param name="hWnd"></param>
-        /// <returns></returns>
-        [DllImport("user32.dll")]
-        public static extern int GetWindowTextLength(IntPtr hWnd);
-
-        /// <summary>
-        /// 获取句柄窗口中的内容
-        /// </summary>
-        /// <param name="hWnd"></param>
-        /// <param name="text"></param>
-        /// <param name="nMaxCount"></param>
-        /// <returns></returns>
-        [DllImport("user32.dll", CharSet = CharSet.Auto)]
-        public static extern int GetWindowText(IntPtr hWnd, IntPtr text, int nMaxCount);
 
         /// <summary>
         /// 获得子级窗口

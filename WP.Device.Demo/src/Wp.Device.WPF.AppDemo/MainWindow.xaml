@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wp.Device.WPF.AppDemo"
         mc:Ignorable="d"
-        Title="MainWindow" MouseMove="Window_MouseMove" Height="450" Width="800">
+        Title="MainWindow" MouseMove="Window_MouseMove" Topmost="True" Height="450" Width="800">
 	<Grid>
 		<TextBox HorizontalAlignment="Left" Height="207" Margin="39,51,0,0" TextWrapping="Wrap" Name="txbCode" VerticalAlignment="Top" Width="567"/>
 		<Button  HorizontalAlignment="Left" Margin="657,61,0,0" VerticalAlignment="Top" Content="读取文件内容"  Width="75" Click="Button_Click"/>
@@ -13,10 +13,19 @@
 		<TextBox  HorizontalAlignment="Left" Height="23" Margin="57,10,0,0" TextWrapping="Wrap" Text="test"  Name="txtFile" VerticalAlignment="Top" Width="490"/>
 		<Image HorizontalAlignment="Left" Height="100" Margin="200,314,0,0" VerticalAlignment="Top" Name="image1" Width="100"/>
 		<Button  HorizontalAlignment="Left" Margin="657,169,0,0" VerticalAlignment="Top" Content="获取窗口句柄"  Width="75" Click="Button_Click_2"/>
-		<Label Content="9.06" HorizontalAlignment="Left" Margin="112,314,0,0"  VerticalAlignment="Top"/>
 		<Button  HorizontalAlignment="Left" Margin="657,227,0,0" VerticalAlignment="Top" Content="虚拟串口测试"  Width="75" Click="Button_Click_3"/>
-		<StackPanel HorizontalAlignment="Left" Height="100" Margin="344,284,0,0" VerticalAlignment="Top" Width="100">
-			<Label Content="9.05" HorizontalAlignment="Left"  VerticalAlignment="Top"/>
-		</StackPanel>
+		<GroupBox Header="查找金额模块" HorizontalAlignment="Left" Height="125" Margin="39,284,0,0" VerticalAlignment="Top" Width="451">
+			<Grid Height="115" Margin="0,0,-2,-12" VerticalAlignment="Top">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="166*"/>
+					<ColumnDefinition Width="3*"/>
+					<ColumnDefinition Width="0*"/>
+				</Grid.ColumnDefinitions>
+				<TextBox HorizontalAlignment="Left" Height="23" Margin="52,23,0,0" TextWrapping="Wrap" Name="txbMoney" Text="9.06" VerticalAlignment="Top" Width="120"/>
+				<Button Content="查找" Margin="197,23,131,0" VerticalAlignment="Top" Click="Button_Click_4"/>
+				<TextBox HorizontalAlignment="Left" Height="54" Margin="10,51,0,0" TextWrapping="Wrap" x:Name="txbDescription" VerticalAlignment="Top" Width="292"/>
+				<Button Content="定位查找" Margin="318,22,10,0" VerticalAlignment="Top" Click="Button_Click_5" />
+			</Grid>
+		</GroupBox>
 	</Grid>
 </Window>

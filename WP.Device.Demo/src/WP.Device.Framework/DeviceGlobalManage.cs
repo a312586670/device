@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using WP.Device.Framework.Screen;
 using static WP.Device.Framework.KeyBoardHookPlugins;
 using static WP.Device.Framework.Screen.ScreenTimerPlugins;
@@ -21,6 +22,7 @@ namespace WP.Device.Framework
         /// </summary>
         static KeyBoardHookPlugins _keyboardHookPlugins;
         static ScreenTimerPlugins _screenTimerPlugins;
+        static MouseHookPlugins _mouseHookPlugins;
 
         #endregion
 
@@ -46,6 +48,25 @@ namespace WP.Device.Framework
         }
         #endregion
 
+        #region 注册鼠标全局钩子
+
+        /// <summary>
+        /// 注册鼠标全局钩子
+        /// </summary>
+        /// <param name="mouseEvent"></param>
+        public static void MouseRegister(MouseEventHandler mouseEvent)
+        {
+            _mouseHookPlugins = new MouseHookPlugins();
+            _mouseHookPlugins.OnMouseActivity += mouseEvent;
+            _mouseHookPlugins.Start();
+        }
+
+        public static void UnMouser()
+        {
+            _mouseHookPlugins.Stop();
+        }
+        #endregion
+
         #region 注册Ocr插件
         /// <summary>
         /// 注册截屏插件
@@ -66,6 +87,9 @@ namespace WP.Device.Framework
         /// <returns></returns>
         public static decimal GetOcrMoney(ScreenConfig config,out Bitmap bitmap)
         {
+            if (_screenTimerPlugins == null)
+                _screenTimerPlugins = new ScreenTimerPlugins(config);
+
             _screenTimerPlugins.InitConifg(config);
             return _screenTimerPlugins.GetOcrMoney(config,out bitmap);
         }

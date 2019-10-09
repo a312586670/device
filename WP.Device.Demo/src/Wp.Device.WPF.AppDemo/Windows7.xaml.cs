@@ -97,7 +97,7 @@ namespace Wp.Device.WPF.AppDemo
                 var rightTopSize = new System.Drawing.Size(left + width, top);
                 var rightBottomSize = new System.Drawing.Size(left + width, top + height);
 
-
+                //坐标相关配置
                 var config = new WP.Device.Framework.Screen.ScreenConfig()
                 {
                     LeftBottomCoordinate = leftBottomSize,
@@ -106,9 +106,10 @@ namespace Wp.Device.WPF.AppDemo
                     RightTopCoordinate = rightTopSize,
                 };
 
+                //Ocr 获取金额
                 var money = DeviceGlobalManage.GetOcrMoney(config, out bitmap);
-
                 this.mainWindow.txbCode.Text = money.ToString();
+
 
                 using (System.Drawing.Bitmap map = (System.Drawing.Bitmap)bitmap)
                 {

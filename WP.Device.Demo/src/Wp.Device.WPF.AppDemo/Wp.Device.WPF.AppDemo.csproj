@@ -72,6 +72,9 @@
     <Compile Include="SerialWindows.xaml.cs">
       <DependentUpon>SerialWindows.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Sketchpad.xaml.cs">
+      <DependentUpon>Sketchpad.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows7.xaml.cs">
       <DependentUpon>Windows7.xaml</DependentUpon>
     </Compile>
@@ -91,6 +94,10 @@
     <Page Include="SerialWindows.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sketchpad.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Windows7.xaml">
       <SubType>Designer</SubType>

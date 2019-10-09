@@ -10,6 +10,7 @@ using System.Windows.Automation;
 using System.Windows.Forms;
 using Microsoft.Win32;
 using System.Windows.Automation.Text;
+using WP.Device.Framework;
 
 namespace UtilityLibrary
 {
@@ -315,10 +316,18 @@ namespace UtilityLibrary
         //    return GetAutoElementByPath(target, path);
         //}
 
-        public static AutomationElement GetAutoElementByPath(IntPtr handle, string[] names)
+        public static AutomationElement FindAutoElementByPath(IntPtr handle, string[] names)
         {
             var target = GetAutomationElementFromHandle(handle);
             if (target == null) return null;
+
+            foreach (string name in names)
+            {
+                if (target.Current.Name.Equals(name))
+                {
+                    return target;
+                }
+            }
 
             return FindAutoElementByPath(target, names);
         }
@@ -329,7 +338,7 @@ namespace UtilityLibrary
         /// <param name="handle"></param>
         /// <param name="names"></param>
         /// <returns></returns>
-        public static List<AutomationElement> FindAutoElementListByPath(IntPtr handle, string[] names)
+        public static List<AutomationElement> FindAutoElementListByPath(IntPtr handle, string[] names=null)
         {
             var target = GetAutomationElementFromHandle(handle);
             if (target == null) return null;
@@ -342,13 +351,27 @@ namespace UtilityLibrary
             var element = new List<AutomationElement>();
             try
             {
-                AutomationElementCollection collection;
-                foreach (string name in names)
+                AutomationElementCollection collection= target.FindAll(TreeScope.Children, Condition.TrueCondition); ;
+
+                #region 查询全部子UI元素
+                if (names == null)
                 {
-                    collection = target.FindAll(TreeScope.Children, Condition.TrueCondition);
                     foreach (AutomationElement item in collection)
                     {
-                        if (item.Current.Name == name)
+                        if (!string.IsNullOrEmpty(item.Current.Name))
+                        {
+                            element.Add(item);
+                        }
+                    }
+                    return element;
+                }
+                #endregion
+
+                foreach (string name in names)
+                {
+                    foreach (AutomationElement item in collection)
+                    {
+                        if (item.Current.Name.Equals(name))
                         {
                             element.Add(item);
                         }
@@ -380,7 +403,7 @@ namespace UtilityLibrary
                     result = null;
                     foreach (AutomationElement item in collection)
                     {
-                        if (item.Current.Name == name)
+                        if (item.Current.Name.Equals(name))
                         {
                             result = item;
                             break;
@@ -396,6 +419,37 @@ namespace UtilityLibrary
             {
                 return null;
             }
+        }
+
+        /// <summary>
+        /// 全局搜索桌面UI元素
+        /// </summary>
+        /// <param name="names"></param>
+        /// <returns></returns>
+        public static List<AutomationElement> FindGlobalElementByName(string names)
+        {
+            var list = new List<AutomationElement>();
+            IntPtr desktopPtr = BaseWin32Api.GetDesktopWindow();
+
+            //2、获得一个子窗口（这通常是一个顶层窗口，当前活动的窗口）
+            IntPtr winPtr = BaseWin32Api.GetWindow(desktopPtr, BaseWin32Api.GetWindowCmd.GW_CHILD);
+
+            //3、循环取得桌面下的所有子窗口
+            while (winPtr != IntPtr.Zero)
+            {
+                //4、继续获取下一个子窗口
+                winPtr = BaseWin32Api.GetWindow(winPtr, BaseWin32Api.GetWindowCmd.GW_HWNDNEXT);
+
+                var uiElement = Utility.FindAutoElementByPath(winPtr, new string[] {  names });
+                if (uiElement != null)
+                {
+                    if (uiElement.Current.Name.Contains(names))
+                    {
+                        list.Add(uiElement);
+                    }
+                }
+            }
+            return list;
         }
         #endregion
 

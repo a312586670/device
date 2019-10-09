@@ -1,0 +1,6 @@
+﻿<Window x:Class="Wp.Device.WPF.AppDemo.Sketchpad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" WindowStyle="None"  WindowState="Normal"
+        Title="Sketchpad" Height="300" Width="300" Opacity="0.2" Topmost="True" AllowsTransparency="True" Background="#001f55" BorderBrush="Red" MouseMove="Window_MouseMove" MouseDoubleClick="Window_MouseDoubleClick">
+	
+</Window>

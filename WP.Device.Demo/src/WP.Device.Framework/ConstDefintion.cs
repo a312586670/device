@@ -26,5 +26,10 @@ namespace WP.Device.Framework
         public const int WM_SYSKEYUP = 0x105;
 
         public const int WH_KEYBOARD_LL = 13;
+
+        /// <summary>
+        /// mouse hook constant
+        /// </summary>
+        public const int WH_MOUSE_LL = 14;
     }
 }
