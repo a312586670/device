@@ -101,10 +101,10 @@ namespace WP.Device.Framework
                 return null;
 
             Bitmap image = new Bitmap(width, height);
-            using (Graphics imgGraphics = Graphics.FromImage(image))
+            using (Graphics graphics = Graphics.FromImage(image))
             {
                 //设置截屏区域
-                imgGraphics.CopyFromScreen(config.LeftTopCoordinate.Width, config.LeftTopCoordinate.Height, 0, 0, new System.Drawing.Size(width, height));
+                graphics.CopyFromScreen(config.LeftTopCoordinate.Width, config.LeftTopCoordinate.Height, 0, 0, new System.Drawing.Size(width, height));
                 return image;
             }
         }

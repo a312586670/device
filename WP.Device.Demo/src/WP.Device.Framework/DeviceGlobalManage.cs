@@ -23,7 +23,6 @@ namespace WP.Device.Framework
         static KeyBoardHookPlugins _keyboardHookPlugins;
         static ScreenTimerPlugins _screenTimerPlugins;
         static MouseHookPlugins _mouseHookPlugins;
-
         #endregion
 
         #region 注册设备相关方法
@@ -53,15 +52,17 @@ namespace WP.Device.Framework
         /// <summary>
         /// 注册鼠标全局钩子
         /// </summary>
-        /// <param name="mouseEvent"></param>
-        public static void MouseRegister(MouseEventHandler mouseEvent)
+        /// <param name="mouseMoveEvent"></param>
+        /// <param name="mouseClickEvent"></param>
+        public static void MouseRegister(MouseEventHandler mouseMoveEvent,MouseEventHandler mouseClickEvent)
         {
             _mouseHookPlugins = new MouseHookPlugins();
-            _mouseHookPlugins.OnMouseActivity += mouseEvent;
+            _mouseHookPlugins.OnMouseMoveHandler += mouseMoveEvent;
+            _mouseHookPlugins.OnMouseClickHanler += mouseClickEvent;
             _mouseHookPlugins.Start();
         }
 
-        public static void UnMouser()
+        public static void UnMouseRegister()
         {
             _mouseHookPlugins.Stop();
         }

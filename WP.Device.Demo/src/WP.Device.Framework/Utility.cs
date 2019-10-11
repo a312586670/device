@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Microsoft.Win32;
 using System.Windows.Automation.Text;
 using WP.Device.Framework;
+using WP.Device.Framework.Helper;
 
 namespace UtilityLibrary
 {
@@ -440,14 +441,22 @@ namespace UtilityLibrary
                 //4、继续获取下一个子窗口
                 winPtr = BaseWin32Api.GetWindow(winPtr, BaseWin32Api.GetWindowCmd.GW_HWNDNEXT);
 
-                var uiElement = Utility.FindAutoElementByPath(winPtr, new string[] {  names });
+                var rootElement = Utility.GetAutomationElementFromHandle(winPtr);
+
+                var uiElement = Utility.FindAutoElementListByPath(winPtr, null);
                 if (uiElement != null)
                 {
-                    if (uiElement.Current.Name.Contains(names))
+                    foreach (var ui in uiElement)
                     {
-                        list.Add(uiElement);
+                        TextHelper.Write("查找内容===>" + ui.Current.Name + "---rootElement->" + rootElement.Current.Name);
+                        if (ui.Current.Name.Contains(names))
+                        {
+                            list.Add(ui);
+                        }
                     }
                 }
+
+                TextHelper.Write("查找内容===>总共查到" + (uiElement?.Count??0) + "个子元素 ---rootElement->" + rootElement?.Current.Name ??"");
             }
             return list;
         }

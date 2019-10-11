@@ -26,16 +26,24 @@ namespace Wp.Device.Console
                 winPtr = BaseWin32Api.GetWindow(winPtr, BaseWin32Api.GetWindowCmd.GW_HWNDNEXT);
 
                 var tool = Utility.GetAutomationElementFromHandle(winPtr);
+                if (tool == null)
+                    continue;
+
                 if (tool != null)
                 {
-                    TextHelper.Write("=========="+tool.Current.Name + "-" + tool.Current.LocalizedControlType);
-                    System.Console.WriteLine(tool.Current.Name+"-"+tool.Current.LocalizedControlType);
+                    TextHelper.Write("==========" + tool.Current.Name + "-" + tool.Current.LocalizedControlType);
+                    System.Console.WriteLine(tool.Current.Name + "-" + tool.Current.LocalizedControlType);
                 }
 
-                var uiElement = Utility.FindAutoElementByPath(winPtr,new string[] { "2019108.00"});
+                if (!tool.Current.Name.Contains("思迅天店"))
+                {
+                    continue;
+                }
+
+                var uiElement = Utility.FindAutoElementByPath(winPtr, new string[] { "2019108.00" });
                 if (uiElement != null)
                 {
-                    System.Console.WriteLine("找到金额"+uiElement.Current.Name);
+                    System.Console.WriteLine("找到金额" + uiElement.Current.Name);
                     TextHelper.Write("=====找到金额=====" + uiElement.Current.Name);
                 }
                 //list.Add(winPtr);

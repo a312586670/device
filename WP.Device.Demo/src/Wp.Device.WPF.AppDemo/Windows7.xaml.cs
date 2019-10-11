@@ -108,7 +108,7 @@ namespace Wp.Device.WPF.AppDemo
 
                 //Ocr 获取金额
                 var money = DeviceGlobalManage.GetOcrMoney(config, out bitmap);
-                this.mainWindow.txbCode.Text = money.ToString();
+                this.mainWindow.txbMoneyScreen.Text = money.ToString();
 
 
                 using (System.Drawing.Bitmap map = (System.Drawing.Bitmap)bitmap)

@@ -127,7 +127,10 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="resource\tessdata\chi_sim-----.traineddata" />
     <None Include="resource\tessdata\chi_sim.traineddata" />
+    <None Include="resource\tessdata\eng---.traineddata" />
+    <None Include="resource\tessdata\eng.traineddata" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
