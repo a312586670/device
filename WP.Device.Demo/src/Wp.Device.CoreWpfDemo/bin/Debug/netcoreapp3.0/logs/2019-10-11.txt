@@ -1,0 +1,525 @@
+﻿===============================================
+日志时间：2019-10-11 10:47:58:1487
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:47:57:1666
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:47:57:1665
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:47:58:2944
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:47:58:3112
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:47:58:6631
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:48:00:5332
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:48:02:5360
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:48:51:3628
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:48:51:4015
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:48:52:4019
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:49:01:5034
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:49:07:9601
+日志内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+异常内容：Method not found: 'Tesseract.Page Tesseract.TesseractEngine.Process(System.Drawing.Bitmap, System.Nullable`1<Tesseract.PageSegMode>)'.
+堆栈内容：   at WP.Device.Framework.Screen.ScreenTimerPlugins.GetOcrMoney(ScreenConfig config, Bitmap& bitMap)
+   at WP.Device.Framework.Screen.ScreenTimerPlugins.OnTimedEvent(Object source, ElapsedEventArgs e) in D:\demo\device\WP.Device.Demo\src\WP.Device.Framework\screen\ScreenTimerPlugins.cs:line 105
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:07:2820
+日志内容：json -02 ->{"VirtKey":67,"ScanCode":46,"KeyName":"C","Ascll":3,"Chat":"\u0003","Code":"\u0000\u0003","IsValid":false,"Time":"2019-10-11T10:51:07.2654057+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:07:2800
+日志内容：json -01 ->{"VirtKey":162,"ScanCode":29,"KeyName":"Ctrl","Ascll":0,"Chat":"\u0000","Code":"\u0000","IsValid":false,"Time":"0001-01-01T00:00:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:07:4125
+日志内容：json -01 ->{"VirtKey":65,"ScanCode":30,"KeyName":"A","Ascll":1,"Chat":"\u0001","Code":"\u0001","IsValid":false,"Time":"2019-10-11T10:51:07.2817435+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:07:4130
+日志内容：json -02 ->{"VirtKey":162,"ScanCode":29,"KeyName":"Ctrl","Ascll":1,"Chat":"\u0001","Code":"\u0001\u0001","IsValid":false,"Time":"2019-10-11T10:51:07.4019532+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:07:4407
+日志内容：json -02 ->{"VirtKey":162,"ScanCode":29,"KeyName":"Ctrl","Ascll":1,"Chat":"\u0001","Code":"\u0001\u0001\u0001","IsValid":false,"Time":"2019-10-11T10:51:07.4130507+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:07:4442
+日志内容：json -02 ->{"VirtKey":67,"ScanCode":46,"KeyName":"C","Ascll":3,"Chat":"\u0003","Code":"\u0001\u0001\u0001\u0003","IsValid":false,"Time":"2019-10-11T10:51:07.4407113+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:07:4469
+日志内容：json -02 ->{"VirtKey":65,"ScanCode":30,"KeyName":"A","Ascll":1,"Chat":"\u0001","Code":"\u0001\u0001\u0001\u0003\u0001","IsValid":false,"Time":"2019-10-11T10:51:07.4442263+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:07:4494
+日志内容：json -02 ->{"VirtKey":162,"ScanCode":29,"KeyName":"Ctrl","Ascll":1,"Chat":"\u0001","Code":"\u0001\u0001\u0001\u0003\u0001\u0001","IsValid":false,"Time":"2019-10-11T10:51:07.446901+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:08:6131
+日志内容：json -01 ->{"VirtKey":86,"ScanCode":47,"KeyName":"V","Ascll":22,"Chat":"\u0016","Code":"\u0016","IsValid":false,"Time":"2019-10-11T10:51:07.4494421+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:08:7678
+日志内容：json -01 ->{"VirtKey":162,"ScanCode":29,"KeyName":"Ctrl","Ascll":22,"Chat":"\u0016","Code":"\u0016","IsValid":false,"Time":"2019-10-11T10:51:08.6130832+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:10:0218
+日志内容：json -01 ->{"VirtKey":220,"ScanCode":43,"KeyName":"\\","Ascll":92,"Chat":"\\","Code":"\\","IsValid":false,"Time":"2019-10-11T10:51:08.7677871+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:10:0514
+日志内容：json -02 ->{"VirtKey":220,"ScanCode":43,"KeyName":"\\","Ascll":92,"Chat":"\\","Code":"\\\\","IsValid":false,"Time":"2019-10-11T10:51:10.0217114+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:12:4366
+日志内容：json -01 ->{"VirtKey":50,"ScanCode":3,"KeyName":"2","Ascll":50,"Chat":"2","Code":"2","IsValid":false,"Time":"2019-10-11T10:51:10.0514692+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:12:4557
+日志内容：json -02 ->{"VirtKey":50,"ScanCode":3,"KeyName":"2","Ascll":50,"Chat":"2","Code":"22","IsValid":false,"Time":"2019-10-11T10:51:12.4365325+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:12:6125
+日志内容：json -01 ->{"VirtKey":190,"ScanCode":52,"KeyName":".","Ascll":46,"Chat":".","Code":".","IsValid":false,"Time":"2019-10-11T10:51:12.4556788+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:12:6438
+日志内容：json -02 ->{"VirtKey":190,"ScanCode":52,"KeyName":".","Ascll":46,"Chat":".","Code":"..","IsValid":false,"Time":"2019-10-11T10:51:12.6124634+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:12:8847
+日志内容：json -01 ->{"VirtKey":80,"ScanCode":25,"KeyName":"P","Ascll":112,"Chat":"p","Code":"p","IsValid":false,"Time":"2019-10-11T10:51:12.6438349+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:12:9154
+日志内容：json -02 ->{"VirtKey":80,"ScanCode":25,"KeyName":"P","Ascll":112,"Chat":"p","Code":"pp","IsValid":false,"Time":"2019-10-11T10:51:12.8846667+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:13:6205
+日志内容：json -01 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b","IsValid":false,"Time":"2019-10-11T10:51:12.9154465+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:13:6437
+日志内容：json -02 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b\b","IsValid":false,"Time":"2019-10-11T10:51:13.6204773+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:13:7804
+日志内容：json -01 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b","IsValid":false,"Time":"2019-10-11T10:51:13.6436733+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:13:8036
+日志内容：json -02 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b\b","IsValid":false,"Time":"2019-10-11T10:51:13.7804011+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:13:9779
+日志内容：json -01 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b","IsValid":false,"Time":"2019-10-11T10:51:13.8036313+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:14:0050
+日志内容：json -02 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b\b","IsValid":false,"Time":"2019-10-11T10:51:13.9778438+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:14:3246
+日志内容：json -01 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b","IsValid":false,"Time":"2019-10-11T10:51:14.0049934+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:14:3527
+日志内容：json -02 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b\b","IsValid":false,"Time":"2019-10-11T10:51:14.3245589+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:14:7252
+日志内容：json -01 ->{"VirtKey":160,"ScanCode":42,"KeyName":"Shift","Ascll":8,"Chat":"\b","Code":"\b","IsValid":false,"Time":"2019-10-11T10:51:14.3527564+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:14:7513
+日志内容：json -02 ->{"VirtKey":160,"ScanCode":42,"KeyName":"Shift","Ascll":8,"Chat":"\b","Code":"\b\b","IsValid":false,"Time":"2019-10-11T10:51:14.7251892+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:15:0764
+日志内容：json -01 ->{"VirtKey":220,"ScanCode":43,"KeyName":"\\","Ascll":92,"Chat":"\\","Code":"\\","IsValid":false,"Time":"2019-10-11T10:51:14.7513424+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:15:0968
+日志内容：json -02 ->{"VirtKey":220,"ScanCode":43,"KeyName":"\\","Ascll":92,"Chat":"\\","Code":"\\\\","IsValid":false,"Time":"2019-10-11T10:51:15.0764217+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:15:5086
+日志内容：json -01 ->{"VirtKey":50,"ScanCode":3,"KeyName":"2","Ascll":50,"Chat":"2","Code":"2","IsValid":false,"Time":"2019-10-11T10:51:15.0967984+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:15:5347
+日志内容：json -02 ->{"VirtKey":50,"ScanCode":3,"KeyName":"2","Ascll":50,"Chat":"2","Code":"22","IsValid":false,"Time":"2019-10-11T10:51:15.5085937+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:15:6847
+日志内容：json -01 ->{"VirtKey":190,"ScanCode":52,"KeyName":".","Ascll":46,"Chat":".","Code":".","IsValid":false,"Time":"2019-10-11T10:51:15.5346465+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:15:7057
+日志内容：json -02 ->{"VirtKey":190,"ScanCode":52,"KeyName":".","Ascll":46,"Chat":".","Code":"..","IsValid":false,"Time":"2019-10-11T10:51:15.6846776+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:15:9884
+日志内容：json -01 ->{"VirtKey":80,"ScanCode":25,"KeyName":"P","Ascll":112,"Chat":"p","Code":"p","IsValid":false,"Time":"2019-10-11T10:51:15.7056777+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:16:0183
+日志内容：json -02 ->{"VirtKey":80,"ScanCode":25,"KeyName":"P","Ascll":112,"Chat":"p","Code":"pp","IsValid":false,"Time":"2019-10-11T10:51:15.9884183+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:16:2924
+日志内容：json -01 ->{"VirtKey":78,"ScanCode":49,"KeyName":"N","Ascll":110,"Chat":"n","Code":"n","IsValid":false,"Time":"2019-10-11T10:51:16.0182615+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:16:3203
+日志内容：json -02 ->{"VirtKey":78,"ScanCode":49,"KeyName":"N","Ascll":110,"Chat":"n","Code":"nn","IsValid":false,"Time":"2019-10-11T10:51:16.2924209+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:16:5334
+日志内容：json -01 ->{"VirtKey":71,"ScanCode":34,"KeyName":"G","Ascll":103,"Chat":"g","Code":"g","IsValid":false,"Time":"2019-10-11T10:51:16.3202688+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:51:16:5673
+日志内容：json -02 ->{"VirtKey":71,"ScanCode":34,"KeyName":"G","Ascll":103,"Chat":"g","Code":"gg","IsValid":false,"Time":"2019-10-11T10:51:16.5332608+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:43:1683
+日志内容：json -01 ->{"VirtKey":162,"ScanCode":29,"KeyName":"Ctrl","Ascll":0,"Chat":"\u0000","Code":"\u0000","IsValid":false,"Time":"0001-01-01T00:00:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:43:1931
+日志内容：json -02 ->{"VirtKey":67,"ScanCode":46,"KeyName":"C","Ascll":99,"Chat":"c","Code":"\u0000cc","IsValid":false,"Time":"2019-10-11T10:59:43.1715949+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:43:1716
+日志内容：json -02 ->{"VirtKey":67,"ScanCode":46,"KeyName":"C","Ascll":99,"Chat":"c","Code":"\u0000c","IsValid":false,"Time":"2019-10-11T10:59:43.1528973+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:44:6933
+日志内容：json -01 ->{"VirtKey":162,"ScanCode":29,"KeyName":"Ctrl","Ascll":99,"Chat":"c","Code":"c","IsValid":false,"Time":"2019-10-11T10:59:43.1930504+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:45:5409
+日志内容：json -01 ->{"VirtKey":86,"ScanCode":47,"KeyName":"V","Ascll":22,"Chat":"\u0016","Code":"\u0016","IsValid":false,"Time":"2019-10-11T10:59:44.6932719+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:45:5566
+日志内容：json -02 ->{"VirtKey":162,"ScanCode":29,"KeyName":"Ctrl","Ascll":22,"Chat":"\u0016","Code":"\u0016\u0016","IsValid":false,"Time":"2019-10-11T10:59:45.5408618+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:46:9847
+日志内容：json -01 ->{"VirtKey":220,"ScanCode":43,"KeyName":"\\","Ascll":92,"Chat":"\\","Code":"\\","IsValid":false,"Time":"2019-10-11T10:59:45.5566461+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:47:0287
+日志内容：json -02 ->{"VirtKey":220,"ScanCode":43,"KeyName":"\\","Ascll":92,"Chat":"\\","Code":"\\\\","IsValid":false,"Time":"2019-10-11T10:59:46.9845358+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:47:9269
+日志内容：json -01 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b","IsValid":false,"Time":"2019-10-11T10:59:47.0286491+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:47:9571
+日志内容：json -02 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b\b","IsValid":false,"Time":"2019-10-11T10:59:47.9268243+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:48:1170
+日志内容：json -01 ->{"VirtKey":160,"ScanCode":42,"KeyName":"Shift","Ascll":8,"Chat":"\b","Code":"\b","IsValid":false,"Time":"2019-10-11T10:59:47.9571377+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:48:1457
+日志内容：json -02 ->{"VirtKey":160,"ScanCode":42,"KeyName":"Shift","Ascll":8,"Chat":"\b","Code":"\b\b","IsValid":false,"Time":"2019-10-11T10:59:48.1170432+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:48:5659
+日志内容：json -01 ->{"VirtKey":220,"ScanCode":43,"KeyName":"\\","Ascll":92,"Chat":"\\","Code":"\\","IsValid":false,"Time":"2019-10-11T10:59:48.1457409+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:48:5989
+日志内容：json -02 ->{"VirtKey":220,"ScanCode":43,"KeyName":"\\","Ascll":92,"Chat":"\\","Code":"\\\\","IsValid":false,"Time":"2019-10-11T10:59:48.565894+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:50:3891
+日志内容：json -01 ->{"VirtKey":52,"ScanCode":5,"KeyName":"4","Ascll":52,"Chat":"4","Code":"4","IsValid":false,"Time":"2019-10-11T10:59:48.5989394+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:50:4106
+日志内容：json -02 ->{"VirtKey":52,"ScanCode":5,"KeyName":"4","Ascll":52,"Chat":"4","Code":"44","IsValid":false,"Time":"2019-10-11T10:59:50.3890273+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:51:1901
+日志内容：json -01 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b","IsValid":false,"Time":"2019-10-11T10:59:50.4105877+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:51:2216
+日志内容：json -02 ->{"VirtKey":8,"ScanCode":14,"KeyName":"Backspace","Ascll":8,"Chat":"\b","Code":"\b\b","IsValid":false,"Time":"2019-10-11T10:59:51.1900953+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:51:4446
+日志内容：json -01 ->{"VirtKey":50,"ScanCode":3,"KeyName":"2","Ascll":50,"Chat":"2","Code":"2","IsValid":false,"Time":"2019-10-11T10:59:51.2215815+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:51:4737
+日志内容：json -02 ->{"VirtKey":50,"ScanCode":3,"KeyName":"2","Ascll":50,"Chat":"2","Code":"22","IsValid":false,"Time":"2019-10-11T10:59:51.4445794+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:51:8289
+日志内容：json -01 ->{"VirtKey":190,"ScanCode":52,"KeyName":".","Ascll":46,"Chat":".","Code":".","IsValid":false,"Time":"2019-10-11T10:59:51.4737118+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:51:8657
+日志内容：json -02 ->{"VirtKey":190,"ScanCode":52,"KeyName":".","Ascll":46,"Chat":".","Code":"..","IsValid":false,"Time":"2019-10-11T10:59:51.8288852+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:52:1168
+日志内容：json -01 ->{"VirtKey":80,"ScanCode":25,"KeyName":"P","Ascll":112,"Chat":"p","Code":"p","IsValid":false,"Time":"2019-10-11T10:59:51.8656341+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:52:1462
+日志内容：json -02 ->{"VirtKey":80,"ScanCode":25,"KeyName":"P","Ascll":112,"Chat":"p","Code":"pp","IsValid":false,"Time":"2019-10-11T10:59:52.1168111+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:52:2927
+日志内容：json -01 ->{"VirtKey":78,"ScanCode":49,"KeyName":"N","Ascll":110,"Chat":"n","Code":"n","IsValid":false,"Time":"2019-10-11T10:59:52.1462628+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:52:3158
+日志内容：json -02 ->{"VirtKey":78,"ScanCode":49,"KeyName":"N","Ascll":110,"Chat":"n","Code":"nn","IsValid":false,"Time":"2019-10-11T10:59:52.2927315+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:52:5987
+日志内容：json -01 ->{"VirtKey":71,"ScanCode":34,"KeyName":"G","Ascll":103,"Chat":"g","Code":"g","IsValid":false,"Time":"2019-10-11T10:59:52.3157984+08:00"}
+===============================================
+
+
+===============================================
+日志时间：2019-10-11 10:59:52:6294
+日志内容：json -02 ->{"VirtKey":71,"ScanCode":34,"KeyName":"G","Ascll":103,"Chat":"g","Code":"gg","IsValid":false,"Time":"2019-10-11T10:59:52.5986669+08:00"}
+===============================================
+
+

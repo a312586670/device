@@ -50,9 +50,9 @@ D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\SerialWindows.
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.g.resources
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.Properties.Resources.resources
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.csproj.GenerateResource.cache
-D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.csproj.CoreCompileInputs.cache
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.csproj.CopyComplete
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.exe
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.pdb
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Sketchpad.baml
 D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Sketchpad.g.cs
+D:\demo\device\WP.Device.Demo\src\Wp.Device.WPF.AppDemo\obj\Debug\Wp.Device.WPF.AppDemo.csproj.CoreCompileInputs.cache

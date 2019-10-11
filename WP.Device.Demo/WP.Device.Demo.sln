@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WP.Device.Framework", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenCaptureControl", "src\ScreenCaptureControl\ScreenCaptureControl.csproj", "{8FA8062A-F685-4664-B068-34109B9389B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wp.Device.CoreWpfDemo", "src\Wp.Device.CoreWpfDemo\Wp.Device.CoreWpfDemo.csproj", "{2D519758-FD8C-4821-AD3C-679B63AF00B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wp.device.CoreWebService", "src\Wp.device.CoreWebService\Wp.device.CoreWebService.csproj", "{9A3A0F29-DF09-4721-A1E7-3DB257269EA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{8FA8062A-F685-4664-B068-34109B9389B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FA8062A-F685-4664-B068-34109B9389B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FA8062A-F685-4664-B068-34109B9389B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D519758-FD8C-4821-AD3C-679B63AF00B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D519758-FD8C-4821-AD3C-679B63AF00B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D519758-FD8C-4821-AD3C-679B63AF00B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D519758-FD8C-4821-AD3C-679B63AF00B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3A0F29-DF09-4721-A1E7-3DB257269EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3A0F29-DF09-4721-A1E7-3DB257269EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3A0F29-DF09-4721-A1E7-3DB257269EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3A0F29-DF09-4721-A1E7-3DB257269EA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

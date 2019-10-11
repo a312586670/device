@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "WP.Device.Framework/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/WP.Device.Framework.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WP.Device.Framework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WP.Device.Framework/1.0.0": {
+      "type": "project",
+      "path": "../WP.Device.Framework/WP.Device.Framework.csproj",
+      "msbuildProject": "../WP.Device.Framework/WP.Device.Framework.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "WP.Device.Framework >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\demo\\device\\WP.Device.Demo\\src\\Wp.Device.CoreDemo\\Wp.Device.CoreDemo.csproj",
+      "projectName": "Wp.Device.CoreDemo",
+      "projectPath": "D:\\demo\\device\\WP.Device.Demo\\src\\Wp.Device.CoreDemo\\Wp.Device.CoreDemo.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "D:\\demo\\device\\WP.Device.Demo\\src\\Wp.Device.CoreDemo\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.weipan.com/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "D:\\demo\\device\\WP.Device.Demo\\src\\WP.Device.Framework\\WP.Device.Framework.csproj": {
+              "projectPath": "D:\\demo\\device\\WP.Device.Demo\\src\\WP.Device.Framework\\WP.Device.Framework.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
