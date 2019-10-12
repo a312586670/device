@@ -133,7 +133,7 @@ namespace WP.Device.Framework
         public extern static IntPtr FindWindow(string lpClassName, string lpWindowName);
 
         [DllImport("user32.dll", EntryPoint = "FindWindowEx", CharSet = CharSet.Auto)]
-        public extern static IntPtr FindWindowEx(IntPtr hwndParent, IntPtr hwndChildAfter, string lpszClass, string lpszWindow);
+        public extern static IntPtr FindWindowEx(IntPtr hwndParent, uint hwndChildAfter, string lpszClass, string lpszWindow);
 
         [DllImport("User32.dll", EntryPoint = "SendMessage")]
         public static extern int SendMessage(IntPtr hWnd, int Msg, IntPtr wParam, string lParam);
@@ -177,15 +177,15 @@ namespace WP.Device.Framework
         //[DllImport("user32.dll", CharSet = CharSet.Auto)]
         //private static extern int GetWindowText(IntPtr hWnd, StringBuilder lpText, int nCount);
 
-        ///// <summary>
-        ///// 枚举窗体
-        ///// </summary>
-        ///// <param name="x"></param>
-        ///// <param name="y"></param>
-        ///// <returns></returns>
-        //[DllImport("user32")]
-        //private static extern int EnumWindows(CallBack x, int y);
-        //private delegate bool CallBack(IntPtr hwnd, int lParam);
+        /// <summary>
+        /// 屏幕上所有的父窗口
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
+        [DllImport("user32")]
+        public static extern int EnumWindows(CallBack x, int y);
+        //public delegate bool CallBack(IntPtr hwnd, int lParam);
 
         ///// <summary>
         ///// 根据窗体句柄获得其进程ID
@@ -302,6 +302,20 @@ namespace WP.Device.Framework
         /// <returns></returns>
         [DllImport("user32.dll")]
         public static extern bool GetCursorPos(out WindowPoint lpPoint);
+
+        #region 获取子窗口
+        /// <summary>
+        /// 获取子窗口
+        /// </summary>
+        /// <param name="hWndParent"></param>
+        /// <param name="lpfn"></param>
+        /// <param name="lParam"></param>
+        /// <returns></returns>
+        [DllImport("user32.dll")]
+        public static extern int EnumChildWindows(IntPtr hWndParent, CallBack lpfn, int lParam);
+
+        public delegate bool CallBack(IntPtr hwnd, int lParam);
+        #endregion
 
         /// <summary>
         /// 获得子级窗口

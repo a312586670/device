@@ -319,18 +319,26 @@ namespace UtilityLibrary
 
         public static AutomationElement FindAutoElementByPath(IntPtr handle, string[] names)
         {
-            var target = GetAutomationElementFromHandle(handle);
-            if (target == null) return null;
-
-            foreach (string name in names)
+            try
             {
-                if (target.Current.Name.Equals(name))
-                {
-                    return target;
-                }
-            }
+                var target = GetAutomationElementFromHandle(handle);
+                if (target == null) return null;
 
-            return FindAutoElementByPath(target, names);
+                foreach (string name in names)
+                {
+                    if (target.Current.Name.Equals(name))
+                    {
+                        return target;
+                    }
+                }
+
+                return FindAutoElementByPath(target, names);
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+           
         }
 
         /// <summary>
@@ -339,7 +347,7 @@ namespace UtilityLibrary
         /// <param name="handle"></param>
         /// <param name="names"></param>
         /// <returns></returns>
-        public static List<AutomationElement> FindAutoElementListByPath(IntPtr handle, string[] names=null)
+        public static List<AutomationElement> FindAutoElementListByPath(IntPtr handle, string[] names = null)
         {
             var target = GetAutomationElementFromHandle(handle);
             if (target == null) return null;
@@ -352,7 +360,7 @@ namespace UtilityLibrary
             var element = new List<AutomationElement>();
             try
             {
-                AutomationElementCollection collection= target.FindAll(TreeScope.Children, Condition.TrueCondition); ;
+                AutomationElementCollection collection = target.FindAll(TreeScope.Children, Condition.TrueCondition); ;
 
                 #region 查询全部子UI元素
                 if (names == null)
@@ -401,6 +409,7 @@ namespace UtilityLibrary
                 foreach (string name in names)
                 {
                     collection = result.FindAll(TreeScope.Children, Condition.TrueCondition);
+
                     result = null;
                     foreach (AutomationElement item in collection)
                     {
@@ -416,8 +425,10 @@ namespace UtilityLibrary
 
                 return result;
             }
-            catch
+            catch (Exception ex)
             {
+                TextHelper.Write(ex.Message);
+                System.Console.WriteLine(ex.Message);
                 return null;
             }
         }
@@ -456,7 +467,7 @@ namespace UtilityLibrary
                     }
                 }
 
-                TextHelper.Write("查找内容===>总共查到" + (uiElement?.Count??0) + "个子元素 ---rootElement->" + rootElement?.Current.Name ??"");
+                TextHelper.Write("查找内容===>总共查到" + (uiElement?.Count ?? 0) + "个子元素 ---rootElement->" + rootElement?.Current.Name ?? "");
             }
             return list;
         }
